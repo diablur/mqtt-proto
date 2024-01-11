@@ -9,11 +9,11 @@ cargo-fuzz = true
 
 [dependencies]
 libfuzzer-sys = "0.4"
-futures-lite = "1.12.0"
+futures-lite = "2.2"
 
 [dependencies.mqtt-proto]
 path = ".."
-features = ["arbitrary"] 
+features = ["arbitrary"]
 
 # Prevent this from interfering with workspaces
 [workspace]
