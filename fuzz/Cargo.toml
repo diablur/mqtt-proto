@@ -9,7 +9,7 @@ cargo-fuzz = true
 
 [dependencies]
 libfuzzer-sys = "0.4"
-futures-lite = "2.2"
+futures-lite = "2.3"
 
 [dependencies.mqtt-proto]
 path = ".."
